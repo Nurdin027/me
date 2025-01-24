@@ -1,0 +1,16 @@
+@keyframes shine {
+    0% {
+        background-position-x: -500%;
+    }
+    100% {
+        background-position-x: 500%;
+    }
+}
+
+#intro {
+    background: linear-gradient(95deg, #FFF, #666, #FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 7s alternate-reverse infinite;
+    background-size: 85%;
+}
